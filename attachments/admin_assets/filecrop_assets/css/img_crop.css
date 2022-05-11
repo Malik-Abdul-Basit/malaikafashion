@@ -1,0 +1,151 @@
+.cropit-preview-image-container {
+	cursor: move;
+}
+
+input, .export {
+	display: block;
+}
+
+.crop_imp_all_inputs_par{
+	float:left;
+	margin:20px auto;
+	overflow:hidden;
+	width:100%;
+}
+
+.crop_imp_all_inputs_par .InputFile{
+	float:left;
+	height:36px;
+	overflow:hidden;
+	width:110px;
+	position:relative;
+}
+
+.crop_imp_all_inputs_par .InputFile input[type="file"].cropit-image-input{
+	float:left;
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:.0;
+	cursor:pointer;
+}
+
+.crop_imp_all_inputs_par .InputFile span.image-input-browse-button{
+	background:#0558E6;
+	-moz-border-radius:20px;
+	-ms-border-radius:20px;
+	-o-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	color:#fff;
+	cursor:pointer;
+	float:left;
+	font-size:13px;
+	height:100%;
+	letter-spacing:.5px;
+	line-height:36px;
+	text-align:center;
+	width:100%;
+}
+
+.crop_imp_all_inputs_par .InputRange{
+	float:left;
+	height:36px;
+	line-height:36px;
+	margin:0px 0px 0px 60px;
+	overflow:hidden;
+	position:relative;
+	width:310px;
+}
+
+.crop_imp_all_inputs_par .InputRange span.label{
+	color:#888;
+	float:left;
+	font-size:12px;
+	letter-spacing:.5px;
+	overflow:hidden;
+	line-height:36px;
+	padding:0px;
+	width:30%;
+}
+
+.crop_imp_all_inputs_par .InputRange input[type="range"].cropit-image-zoom-input{
+	float:left;
+	width:70%;
+	height:100%;
+	padding:0px;
+	margin-top:3px;
+}
+
+.crop_imp_all_inputs_par .Rotatebuttons{
+	float:left;
+	height:36px;
+	margin:0 0 0 7px;
+	overflow:hidden;
+	width:260px;
+}
+
+.crop_imp_all_inputs_par .Rotatebuttons a{
+	background:#F2F2F2;
+	border:1px solid #D8D8D8;
+	-moz-border-radius:20px;
+	-ms-border-radius:20px;
+	-o-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	color:#888;
+	cursor:pointer;
+	float:left;
+	font-size:13px;
+	height:100%;
+	letter-spacing:.5px;
+	line-height:33px;
+	margin:0px 5px;
+	text-align:center;
+	width:46%;
+}
+
+.crop_imp_all_inputs_par .Rotatebuttons a:hover{
+	background:#EAEAEA;
+}
+
+.crop_imp_all_inputs_par .Proceedbutton{
+	float:right;
+	height:36px;
+	overflow:hidden;
+	width:110px;
+}
+
+.crop_imp_all_inputs_par .Proceedbutton button{
+	background:#04BC5C;
+	border:none;
+	-moz-border-radius:20px;
+	-ms-border-radius:20px;
+	-o-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	color:#fff;
+	float:right;
+	font-size:13px;
+	height:100%;
+	letter-spacing:.5px;
+	line-height:36px;
+	padding:0px;
+	text-align:center;
+	width:100%;
+}
+
+.crop_imp_all_inputs_par .Proceedbutton button:hover{
+	background:#02B055;
+}
+
+button#send.export[type="submit"]{
+	-moz-border-radius:20px;
+	-ms-border-radius:20px;
+	-o-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+    padding:6px 20px;
+}
