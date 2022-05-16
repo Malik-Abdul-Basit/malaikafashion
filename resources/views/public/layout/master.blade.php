@@ -28,13 +28,13 @@
     </style>
 	<link rel="stylesheet" type="text/css" href="{{ asset('attachments/public_assets/layout_assets/themes/woochi/assets/css/inner_style1.css') }}"/>
       <script language="javascript" type="text/javascript" src="{{ asset('attachments/public_assets/layout_assets/themes/woochi/assets/js/inner_script1.js') }}" defer></script>
-      <link rel="stylesheet" type="text/css" media="all" href="{{ asset('attachments/public_assets/layout_assets/themes/woochi/assets/css/inner_style2.css') }}"/>    
+      <link rel="stylesheet" type="text/css" media="all" href="{{ asset('attachments/public_assets/layout_assets/themes/woochi/assets/css/inner_style2.css') }}"/>
     <noscript><style>.woocommerce-product-gallery{opacity:1!important}</style></noscript>
     <noscript><style type="text/css">.wpb_animate_when_almost_visible{opacity:1}</style></noscript>
-    
+
     @stack('additional_header_files')
   </head>
-  
+
   <body class="page-template-default page woocommerce-no-js yith-wcan-free woo-variation-swatches woo-variation-swatches-theme-woochi woo-variation-swatches-theme-child-woochi woo-variation-swatches-style-squared woo-variation-swatches-attribute-behavior-blur woo-variation-swatches-tooltip-enabled woo-variation-swatches-stylesheet-enabled group-blog has-header-image colors-light wpb-js-composer js-comp-ver-5.7 vc_responsive dokan-theme-woochi">
     <div class="ftc-mobile-wrapper">
       {{-- <!--<div class="mutil-lang-cur" style="display:none !important; opacity:0">
@@ -99,11 +99,11 @@
       </div>--> --}}
       <div class="menu-text">
         <button type="button" class="btn btn-toggle-canvas btn-danger" data-toggle="offcanvas">
-          <i class="fa fa-close"></i> 
+          <i class="fa fa-close"></i>
         </button>
         <i class="fa fa-bars"></i> Menu
       </div>
-      
+
       <?php
         /*$MainMenuArray=array(
           'HOME' => '0',
@@ -120,7 +120,7 @@
           'CONTACT US' => '0'
         );
       ?>
-      
+
       <div class="mobile-menu-wrapper">
         <div id="mega_main_menu" class="primary primary_style-flat icons-left first-lvl-align-center first-lvl-separator-none direction-horizontal fullwidth-disable pushing_content-disable mobile_minimized-enable dropdowns_trigger-hover dropdowns_animation-anim_3 no-logo no-search no-woo_cart no-buddypress responsive-enable coercive_styles-disable indefinite_location_mode-disable language_direction-ltr version-2-1-5 mega_main mega_main_menu">
           <div class="menu_holder">
@@ -136,7 +136,7 @@
                 </a>
               </span>
               <ul id="mega_main_menu_ul" class="mega_main_menu_ul">
-                
+
                 @foreach($MainMenuArray as $MenuName => $hasChild)
                   <li class="menu-item submenu_default_width
                   @if($page==$MenuName) current-menu-ancestor @endif
@@ -164,9 +164,9 @@
                       @endif
                     @endif
                   </li>
-                
+
                 @endforeach
-                
+
                 {{--<!--<li class="menu-item submenu_default_width menu-item-has-children default_dropdown default_style drop_to_right" style="display:none !important; opacity:0">
                   <a title="VENDORS" class="item_link disable_icon">
                     <i class=""></i>
@@ -209,7 +209,7 @@
                         </li>
                       </ul>
                     </li>
-                    
+
                     <li class="menu-item submenu_default_width menu-item-has-children default_dropdown default_style drop_to_right">
                       <a title="WC VENDOR LIST" class="item_link disable_icon">
                         <i class=""></i>
@@ -243,7 +243,7 @@
           </div>
         </div>
       </div>
-      
+
     </div>
     <div id="page" class="site">
       <a class="skip-link screen-reader-text" href="#"></a>
@@ -255,7 +255,7 @@
                 <div class="ftc-sb-language">
                   <div id="ftc_language" class="ftc_language">
                     <ul>
-                      <li> 
+                      <li>
                         <a href="#" class="ftc_lang ftc_lang_eng">English<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                         <ul style="visibility: hidden;">
                           <li class="ftc_lang_fran"><a rel="alternate" href="#">Francais </a></li>
@@ -358,9 +358,9 @@
                               </span>
                             </a>
                           </span>
-                          
+
                           <ul id="mega_main_menu_ul" class="mega_main_menu_ul">
-                            
+
                             @foreach($MainMenuArray as $MenuName => $hasChild)
                               <li class="menu-item submenu_default_width
                               @if($page==$MenuName) current-menu-ancestor @endif
@@ -389,7 +389,7 @@
                                 @endif
                               </li>
                             @endforeach
-                            
+
                             {{--<!--<li class="menu-item submenu_default_width menu-item-has-children default_dropdown default_style drop_to_right" style="display:none !important; opacity:0">
                               <a title="VENDORS" class="item_link disable_icon">
                                 <i class=""></i>
@@ -460,7 +460,7 @@
                                 </li>
                               </ul>
                             </li>-->--}}
-                            
+
                           </ul>
                         </div>
                       </div>
@@ -493,13 +493,13 @@
           </div>
         </div>
       </header>
-      
+
       <div class="site-content-contain">
         @yield('content')
-        
-        
-        
-        
+
+
+
+
         <footer id="colophon" class="site-footer">
           <div class="container top-footer">
             <div class="widget-column footer-top">
@@ -510,16 +510,16 @@
             <div class="container">
               <div id="ftc_footer-6" class="widget ftc-footer">
                 <div class="vc_row wpb_row vc_row-fluid vc_custom_1503022172415 ftc-row-wide">
-                  
-                  
+
+
                   <div class="column-intro wpb_column vc_column_container vc_col-sm-3">
                     <div class="wpb_wrapper">
                       <div class="wpb_text_column wpb_content_element ">
                         <div class="wpb_wrapper">
                           <p style="line-height: 23px; margin:0 0 15px 0!important;overflow:hidden">
-                            <img class="alignnone size-full wp-image-2615" 
+                            <img class="alignnone size-full wp-image-2615"
                             src="{{ asset('uploads/logos') }}/footerlogo.png" alt="" width="50px" style="float:left;" />
-                            <span style="float:left;display:inline-block;margin:23px 0 0 15px">SILKLONDON<small>LTD</small></span>
+                            <span style="float:left;display:inline-block;margin:23px 0 0 15px">MALAIKA FASHION</span>
                           </p>
                           <p style="line-height: 23px;">
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
@@ -530,8 +530,8 @@
                       </div>
                     </div>
                   </div>
-                  
-                  
+
+
                   <div class="wpb_column vc_column_container vc_col-sm-3">
                     <div class="wpb_wrapper" style="padding: 0 0 0 30px;">
                       <div class="wpb_text_column wpb_content_element ">
@@ -548,92 +548,92 @@
                       </div>
                     </div>
                   </div>
-                  
-                  
+
+
                   <div class="wpb_column vc_column_container vc_col-sm-3">
                     <div class="wpb_wrapper">
                       <div class="wpb_text_column wpb_content_element ">
                         <div class="wpb_wrapper">
                           <h4 class="widget-title heading-title">Follow Us</h4>
-                                                    
+
                           <p style="overflow:hidden">
                             <span style="color:#fff; float:left;padding:0 5px;">
                               <strong><i class="fa fa-twitter" aria-hidden="true"></i></strong>
                               &nbsp;&nbsp;&nbsp;
                             </span>
-                            <a title="Silklondonltd" href="https://www.instagram.com/silklondonltd/" target="_blank">Silklondonltd</a>
+                            <a title="Silklondonltd" href="https://www.instagram.com/silklondonltd/" target="_blank">malaikafashion</a>
                           </p>
-                          
+
                           <p style="overflow:hidden">
                             <span style="color:#fff; float:left;padding:0 5px;">
                               <strong><i class="fa fa-facebook" aria-hidden="true"></i></strong>
                               &nbsp;&nbsp;&nbsp;
                             </span>
-                            <a title="Silklondonltd" href="https://www.facebook.com/silklondonltd/" target="_blank">Silklondonltd</a>
+                            <a title="Silklondonltd" href="https://www.facebook.com/MalaykasFashion" target="_blank">malaikafashion.com</a>
                           </p>
-                          
+
                           <p style="overflow:hidden">
                             <span style="color:#fff; float:left;padding:0 5px;">
                               <strong><i class="fa fa-instagram" aria-hidden="true"></i></strong>
                               &nbsp;&nbsp;&nbsp;
                             </span>
-                            <a title="Silklondonltd" href="https://www.instagram.com/silklondonltd/" target="_blank">Silklondonltd</a>
+                            <a title="Silklondonltd" href="https://www.instagram.com/silklondonltd/" target="_blank">malaikafashion</a>
                           </p>
-                          
+
                           <p style="overflow:hidden">
                             <span style="color:#fff; float:left;padding:0 5px;">
                               <strong><i class="fa fa-link" aria-hidden="true"></i></strong>
                               &nbsp;&nbsp;&nbsp;
                             </span>
-                            <a title="www.silklondonltd.com" href="{{ route('HOME') }}">www.silklondonltd.com</a>
+                            <a title="www.silklondonltd.com" href="{{ route('HOME') }}">www.malaikafashion.com</a>
                           </p>
 
-                          
+
                         </div>
                       </div>
                     </div>
                   </div>
-                  
-                  
+
+
                   <div class="wpb_column vc_column_container vc_col-sm-3">
                     <div class="wpb_wrapper">
                       <div class="wpb_text_column wpb_content_element ">
                         <div class="wpb_wrapper">
                           <div class="info-com">
                             <h4 class="widget-title heading-title">Contact us</h4>
-                            
+
                             <p style="overflow:hidden">
                               <span style="color:#fff; float:left;padding:0 5px;">
                                 <strong><i class="fa fa-phone" aria-hidden="true"></i></strong>
                                 &nbsp;&nbsp;&nbsp;
                               </span>
-                              <em style="float:left;font-style: normal">+44 786 780 78 84</em>
+                              <em style="float:left;font-style: normal">+92 313 2222 079</em>
                             </p>
-                            
+
                             <p style="overflow:hidden">
                               <span style="color:#fff; float:left;padding:0 5px;">
                                 <strong><i class="fa fa-whatsapp" aria-hidden="true"></i></strong>
                                 &nbsp;&nbsp;&nbsp;
                               </span>
-                              <em style="float:left;font-style: normal">+44 787 953 35 57</em>
+                              <em style="float:left;font-style: normal">+92 313 2222 079</em>
                             </p>
-                            
+
                             <p style="overflow:hidden">
                               <span style="color:#fff; float:left;padding:0 5px;">
                                 <strong><i class="fa fa-envelope" aria-hidden="true"></i></strong>
                                 &nbsp;&nbsp;&nbsp;
                               </span>
-                              <a title="naveed@silklondonltd.com" href="mailto:naveed@silklondonltd.com">naveed@silklondonltd.com</a>
+                              <a title="malaykasfas.fashion000@gmail.com" href="mailto:malaykasfas.fashion000@gmail.com">malaykasfas.fashion000@gmail.com</a>
                             </p>
-                            
+
                             <p style="overflow:hidden">
                               <span style="color:#fff; float:left;padding:0 5px;">
                                 <strong><i class="fa fa-map-marker" aria-hidden="true"></i></strong>
                                 &nbsp;&nbsp;&nbsp;
                               </span>
                               <em style="float:left;font-style: normal">
-                                24 Belgrave Road, Ilford, IG1 3AW <br>
-                                London / UK
+                                  Shop no 1136 street no 6 fatah abad in front of ittehad brands <br>
+                                  Faisalabad, Punjab, Pakistan
                               </em>
                             </p>
                           </div>
@@ -641,7 +641,7 @@
                       </div>
                     </div>
                   </div>
-                  
+
                 </div>
                 <div class="vc_row wpb_row vc_row-fluid vc_custom_1502964136561 ftc-row-wide">
                   <div class="wpb_column vc_column_container vc_col-sm-12 vc_custom_1502964275550">
@@ -651,7 +651,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="widget-column footer-bottom">
             <div class="container">
               <div id="ftc_footer-7" class="widget ftc-footer">
@@ -687,13 +687,13 @@
             </div>
           </div>
         </footer>
-        
-        
+
+
       </div>
     </div>
     <div class="ftc-close-popup"></div>
-    
-    
+
+
     <div class="footer-mobile" style="display:none !important">
       <div class="mobile-home">
         <a href="#"> <i class="fa fa-home"></i> Home </a>
@@ -710,9 +710,9 @@
         <a href="#" title="Login"> <i class="fa fa-user"></i> Login </a>
       </div>
     </div>
-    
-    
-    
+
+
+
     <div id="to-top" class="scroll-button"> <a class="scroll-button" href="javascript:void(0)" title="Back to Top">Back to Top</a></div>
     <div class="ftc-off-canvas-cart" style="display:none !important">
       <div class="off-canvas-cart-title">
@@ -729,7 +729,7 @@
     </div>
                   @yield('script')
       <script language="javascript" type="text/javascript" src="{{ asset('attachments/public_assets/layout_assets/cache/min/1/d12fef46143ebcece751608ebe7415b3.js') }}" data-minify="1" defer></script>
-    
+
     @stack('additional_footer_files')
 </body>
 
