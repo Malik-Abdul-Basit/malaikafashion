@@ -632,7 +632,8 @@
                                 &nbsp;&nbsp;&nbsp;
                               </span>
                               <em style="float:left;font-style: normal">
-                                  Shop no 1136 street no 6 fatah abad in front of ittehad brands <br>
+                                  Shop no 1136 street no 6 fatah abad <br>
+                                  in front of ittehad brands <br>
                                   Faisalabad, Punjab, Pakistan
                               </em>
                             </p>
