@@ -1,6 +1,6 @@
 @extends('public.layout.master')
 @push('additional_header_files')
-  
+
 @endpush
 
 
@@ -11,12 +11,12 @@
               <div class="row">
                 <main id="main" class="site-main col-sm-12 col-xs-12">
                   <article class="page type-page status-publish hentry">
-                    
+
                     {{-- Home Main Slider --}}
                     <div class="vc_row wpb_row vc_row-fluid ftc-row-wide">
                       <div class="wpb_column vc_column_container vc_col-sm-12">
                         <div class="wpb_wrapper">
-                          <div id="rev_slider_5_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" 
+                          <div id="rev_slider_5_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery"
                           style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
                             <div id="rev_slider_5_1" class="rev_slider fullwidthabanner tp-overflow-hidden" style="display:none;" data-version="5.4.8.3">
                               <ul>
@@ -36,11 +36,11 @@
                                 data-param1="" data-param2="" data-param3="" data-param4="" data-param5=""
                                 data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
                                 data-description="">
-                                  
+
                                   <img src="{{ asset('uploads/slider') }}/img_1.jpg" alt="img_1.jpg" title="img_1.jpg" width="1920" height="700"
                                   data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off"
                                   class="rev-slidebg" data-no-retina>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-001-layer-1"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','65','0']"
@@ -61,7 +61,7 @@
                                   style="z-index:5;white-space:nowrap;font-size:18px;line-height:22px;color:#fff;letter-spacing:0px">
                                     For Men's &amp; Women's
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-001-layer-2"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','62','0']"
@@ -82,7 +82,7 @@
                                   style="z-index:6;white-space:nowrap;font-size:48px;line-height:22px;color:#fff;letter-spacing:0px;">
                                     UNIFORM
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-001-layer-3"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','65','0']"
@@ -103,7 +103,7 @@
                                   style="z-index:7;white-space:nowrap;font-size:18px;line-height:22px;color:#fff;letter-spacing:0px;">
                                     Uniform can be made on demand.
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-001-layer-4"
                                   data-x="['left','left','left','left']"
                                   data-hoffset="['65','65','65','-179']"
@@ -125,7 +125,7 @@
                                     {{-- <!-- Fourth row --> --}}
                                   </div>
                                 </li>
-                                
+
                                 <li data-index="rs-002"
                                 data-transition=""
                                 data-slotamount="default"
@@ -142,11 +142,11 @@
                                 data-param1="" data-param2="" data-param3="" data-param4="" data-param5=""
                                 data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
                                 data-description="">
-                                  
+
                                   <img src="{{ asset('uploads/slider') }}/img_2.jpg" alt="img_2.jpg" title="img_2.jpg" width="1920" height="700"
                                   data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off"
                                   class="rev-slidebg" data-no-retina>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-002-layer-1"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','65','0']"
@@ -167,7 +167,7 @@
                                   style="z-index:5;white-space:nowrap;font-size:18px;line-height:22px;color:#fff;letter-spacing:0px">
                                     We Provide Girls &amp; Boys
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-002-layer-2"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','62','0']"
@@ -188,7 +188,7 @@
                                   style="z-index:6;white-space:nowrap;font-size:48px;line-height:22px;color:#fff;letter-spacing:0px;">
                                     UNIFORM
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-002-layer-3"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','65','0']"
@@ -209,7 +209,7 @@
                                   style="z-index:7;white-space:nowrap;font-size:18px;line-height:22px;color:#fff;letter-spacing:0px;">
                                     Perfect &amp; awesome quality.
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-002-layer-4"
                                   data-x="['left','left','left','left']"
                                   data-hoffset="['65','65','65','-179']"
@@ -230,7 +230,7 @@
                                   style="z-index:8;white-space:nowrap;font-size:15px;line-height:22px;color:#fff;letter-spacing:0px;">
                            {{--<!--Welcome to the home of women's fashion clothing & accessories at Italy-->--}}
                                   </div>
-                                  
+
                                   {{--<!--<div class="tp-caption rev-btn" id="slide-002-layer-5"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','65','0']"
@@ -259,7 +259,7 @@
                                     Shop now !
                                   </div>-->--}}
                                 </li>
-                                
+
                                 <li data-index="rs-003"
                                 data-transition=""
                                 data-slotamount="default"
@@ -276,11 +276,11 @@
                                 data-param1="" data-param2="" data-param3="" data-param4="" data-param5=""
                                 data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
                                 data-description="">
-                                  
+
                                   <img src="{{ asset('uploads/slider') }}/img_3.jpg" alt="img_3.jpg" title="img_3.jpg" width="1920" height="700"
                                   data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off"
                                   class="rev-slidebg" data-no-retina>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-003-layer-1"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','65','0']"
@@ -301,7 +301,7 @@
                                   style="z-index:5;white-space:nowrap;font-size:18px;line-height:22px;color:#000;letter-spacing:0px">
                                     We Make It Easy
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-003-layer-2"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','62','0']"
@@ -322,7 +322,7 @@
                                   style="z-index:6;white-space:nowrap;font-size:48px;line-height:22px;color:#000;letter-spacing:0px;">
                                     HOTEL  ACCESSORIES
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-003-layer-3"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','65','0']"
@@ -343,7 +343,7 @@
                                   style="z-index:7;white-space:nowrap;font-size:18px;line-height:22px;color:#000;letter-spacing:0px;">
                                     Plays an essential role in the hospitality industry
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-003-layer-4"
                                   data-x="['left','left','left','left']"
                                   data-hoffset="['65','65','65','-179']"
@@ -364,7 +364,7 @@
                                   style="z-index:8;white-space:nowrap;font-size:15px;line-height:22px;color:#fff;letter-spacing:0px;">
                                     {{--<!--Welcome to the home of men & women's-->--}}
                                   </div>
-                                  
+
 
                                   {{--<!--<div class="tp-caption rev-btn" id="slide-003-layer-5"
                                   data-x="['left','left','left','center']"
@@ -394,7 +394,7 @@
                                     Shop now !
                                   </div>-->--}}
                                 </li>
-                                
+
                                 <li data-index="rs-004"
                                 data-transition=""
                                 data-slotamount="default"
@@ -411,11 +411,11 @@
                                 data-param1="" data-param2="" data-param3="" data-param4="" data-param5=""
                                 data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
                                 data-description="">
-                                  
+
                                   <img src="{{ asset('uploads/slider') }}/img_4.jpg" alt="img_4.jpg" title="img_4.jpg" width="1920" height="700"
                                   data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off"
                                   class="rev-slidebg" data-no-retina>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-004-layer-1"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','65','0']"
@@ -436,7 +436,7 @@
                                   style="z-index:5;white-space:nowrap;font-size:18px;line-height:22px;color:#fff;letter-spacing:0px">
                                     New Trend For Men's
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-004-layer-2"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','62','0']"
@@ -457,7 +457,7 @@
                                   style="z-index:6;white-space:nowrap;font-size:48px;line-height:22px;color:#fff;letter-spacing:0px;">
                                     MEN's SUITS
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-004-layer-3"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','65','0']"
@@ -478,7 +478,7 @@
                                   style="z-index:7;white-space:nowrap;font-size:18px;line-height:22px;color:#fff;letter-spacing:0px;">
                                     Looking good isn't self-importance,<br>It's self-respect.
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-004-layer-4"
                                   data-x="['left','left','left','left']"
                                   data-hoffset="['65','65','65','-179']"
@@ -499,7 +499,7 @@
                                   style="z-index:8;white-space:nowrap;font-size:15px;line-height:22px;color:#fff;letter-spacing:0px;">
                                     {{--<!--It's self-respect.-->--}}
                                   </div>
-                                  
+
                                   {{--<!--<div class="tp-caption rev-btn" id="slide-004-layer-5"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','65','0']"
@@ -528,7 +528,7 @@
                                     Shop now !
                                   </div>-->--}}
                                 </li>
-                                
+
                                 <li data-index="rs-005"
                                 data-transition=""
                                 data-slotamount="default"
@@ -545,11 +545,11 @@
                                 data-param1="" data-param2="" data-param3="" data-param4="" data-param5=""
                                 data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
                                 data-description="">
-                                  
+
                                   <img src="{{ asset('uploads/slider') }}/img_5.jpg" alt="img_5.jpg" title="img_5.jpg" width="1920" height="700"
                                   data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off"
                                   class="rev-slidebg" data-no-retina>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-005-layer-1"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','65','0']"
@@ -568,9 +568,9 @@
                                   data-paddingbottom="[0,0,0,0]"
                                   data-paddingleft="[0,0,0,0]"
                                   style="z-index:5;white-space:nowrap;font-size:18px;line-height:22px;color:#fff;letter-spacing:0px">
-                                    Current Style Of 
+                                    Current Style Of
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-005-layer-2"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','62','0']"
@@ -591,7 +591,7 @@
                                   style="z-index:6;white-space:nowrap;font-size:48px;line-height:22px;color:#fff;letter-spacing:0px;">
                                     MEN's SUITS
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-005-layer-3"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','65','0']"
@@ -612,7 +612,7 @@
                                   style="z-index:7;white-space:nowrap;font-size:18px;line-height:22px;color:#fff;letter-spacing:0px;">
                                     Welcome to the home of men's fashion clothing.
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-005-layer-4"
                                   data-x="['left','left','left','left']"
                                   data-hoffset="['65','65','65','-179']"
@@ -634,7 +634,7 @@
                                     {{--<!--ITEM 5-->--}}
                                   </div>
                                 </li>
-                                
+
                                 <li data-index="rs-006"
                                 data-transition=""
                                 data-slotamount="default"
@@ -651,11 +651,11 @@
                                 data-param1="" data-param2="" data-param3="" data-param4="" data-param5=""
                                 data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
                                 data-description="">
-                                  
+
                                   <img src="{{ asset('uploads/slider') }}/img_6.jpg" alt="img_6.jpg" title="img_6.jpg" width="1920" height="700"
                                   data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off"
                                   class="rev-slidebg" data-no-retina>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-006-layer-1"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','65','0']"
@@ -676,7 +676,7 @@
                                   style="z-index:5;white-space:nowrap;font-size:18px;line-height:22px;color:#000;letter-spacing:0px">
                                     Beautiful Shirt's for Beauty Queens
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-006-layer-2"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','62','0']"
@@ -697,7 +697,7 @@
                                   style="z-index:6;white-space:nowrap;font-size:48px;line-height:22px;color:#000;letter-spacing:0px;">
                                     WOMEN's SHIRTS
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-006-layer-3"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','65','0']"
@@ -719,7 +719,7 @@
                                     Shirt can be made on demand.<br>
                                     Perfect shirts makes a perfect day.
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-006-layer-4"
                                   data-x="['left','left','left','left']"
                                   data-hoffset="['65','65','65','-179']"
@@ -741,7 +741,7 @@
                                     {{--<!--ITEM 6-->--}}
                                   </div>
                                 </li>
-                                
+
                                 <li data-index="rs-007"
                                 data-transition=""
                                 data-slotamount="default"
@@ -758,11 +758,11 @@
                                 data-param1="" data-param2="" data-param3="" data-param4="" data-param5=""
                                 data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
                                 data-description="">
-                                  
+
                                   <img src="{{ asset('uploads/slider') }}/img_7.jpg" alt="img_7.jpg" title="img_7.jpg" width="1920" height="700"
                                   data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off"
                                   class="rev-slidebg" data-no-retina>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-007-layer-1"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','65','0']"
@@ -783,7 +783,7 @@
                                   style="z-index:5;white-space:nowrap;font-size:18px;line-height:22px;color:#000;letter-spacing:0px">
                                     A Beautiful &amp; Good Quality
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-007-layer-2"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','62','0']"
@@ -805,7 +805,7 @@
                                   style="z-index:6;white-space:nowrap;font-size:48px;line-height:22px;color:#000;letter-spacing:0px;">
                                     TOWEL IS A
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-007-layer-3"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','65','0']"
@@ -826,7 +826,7 @@
                                   style="z-index:7;white-space:nowrap;font-size:18px;line-height:22px;color:#000;letter-spacing:0px;">
                                     Essential part of our daily routine.
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-007-layer-4"
                                   data-x="['left','left','left','left']"
                                   data-hoffset="['65','65','65','-179']"
@@ -848,7 +848,7 @@
                                     {{--<!--ITEM 7-->--}}
                                   </div>
                                 </li>
-                                
+
                                 <li data-index="rs-008"
                                 data-transition=""
                                 data-slotamount="default"
@@ -865,11 +865,11 @@
                                 data-param1="" data-param2="" data-param3="" data-param4="" data-param5=""
                                 data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
                                 data-description="">
-                                  
+
                                   <img src="{{ asset('uploads/slider') }}/img_8.jpg" alt="img_8.jpg" title="img_8.jpg" width="1920" height="700"
                                   data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off"
                                   class="rev-slidebg" data-no-retina>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-008-layer-1"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','65','0']"
@@ -890,7 +890,7 @@
                                   style="z-index:5;white-space:nowrap;font-size:18px;line-height:22px;color:#000;letter-spacing:0px">
                                     A Complete Home Package
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-008-layer-2"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','62','0']"
@@ -913,7 +913,7 @@
                                   style="z-index:6;white-space:nowrap;font-size:48px;line-height:22px;color:#000;letter-spacing:0px;">
                                     HOME TEXTILE
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-008-layer-3"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','65','0']"
@@ -934,7 +934,7 @@
                                   style="z-index:7;white-space:nowrap;font-size:18px;line-height:22px;color:#000;letter-spacing:0px;">
                                     Make our home like beautiful diamond.
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-008-layer-4"
                                   data-x="['left','left','left','left']"
                                   data-hoffset="['65','65','65','-179']"
@@ -956,7 +956,7 @@
                                     {{--<!--ITEM 8-->--}}
                                   </div>
                                 </li>
-                                
+
                                 <li data-index="rs-009"
                                 data-transition=""
                                 data-slotamount="default"
@@ -973,11 +973,11 @@
                                 data-param1="" data-param2="" data-param3="" data-param4="" data-param5=""
                                 data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
                                 data-description="">
-                                  
+
                                   <img src="{{ asset('uploads/slider') }}/img_9.jpg" alt="img_9.jpg" title="img_9.jpg" width="1920" height="700"
                                   data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off"
                                   class="rev-slidebg" data-no-retina>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-009-layer-1"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','65','0']"
@@ -998,7 +998,7 @@
                                   style="z-index:5;white-space:nowrap;font-size:18px;line-height:22px;color:#fff;letter-spacing:0px">
                                     New Trend Item
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-009-layer-2"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','62','0']"
@@ -1022,7 +1022,7 @@
                                   style="z-index:6;white-space:nowrap;font-size:48px;line-height:22px;color:#fff;letter-spacing:0px;">
                                     HOME TEXTILE
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-009-layer-3"
                                   data-x="['left','left','left','center']"
                                   data-hoffset="['65','65','65','0']"
@@ -1043,7 +1043,7 @@
                                   style="z-index:7;white-space:nowrap;font-size:18px;line-height:22px;color:#fff;letter-spacing:0px;">
                                     Our Good Design
                                   </div>
-                                  
+
                                   <div class="tp-caption tp-resizeme" id="slide-009-layer-4"
                                   data-x="['left','left','left','left']"
                                   data-hoffset="['65','65','65','-179']"
@@ -1072,7 +1072,7 @@
                         </div>
                       </div>
                     </div>
-                    
+
                     {{-- Categories --}}
                     <div class="vc_row wpb_row vc_row-fluid img-home4 ftc-row-wide" style="margin-top:40px">
                       @forelse($categories as $index => $category)
@@ -1091,7 +1091,7 @@
                                     data-lazy-src="{{ asset('uploads/categories') }}/{{ $category->image }}" class="img wp-post-image"
                                     alt="" data-lazy-srcset="{{ asset('uploads/categories') }}/{{ $category->image }} 370w,
                                     {{ asset('uploads/categories') }}/{{ $category->image }} 280w" data-lazy-sizes="(max-width: 370px) 100vw, 370px" />
-                                    
+
                                     <noscript>
                                       <img width="370" height="252" src="{{ asset('uploads/categories') }}/{{ $category->image }}"
                                       class="img wp-post-image" alt="" srcset="{{ asset('uploads/categories') }}/{{ $category->image }} 370w,
@@ -1107,7 +1107,7 @@
                                     data-lazy-srcset="{{ asset('uploads/categories/default/cat-sd1_4kio.90s8asf017ka.jpg') }} 370w,
                                     {{ asset('uploads/categories/default/cat-sd1_4kio.90s8asf017ka.jpg') }} 280w"
                                     data-lazy-sizes="(max-width: 370px) 100vw, 370px" />
-                                    
+
                                     <noscript>
                                       <img width="370" height="252" src="{{ asset('uploads/categories/default/cat-sd1_4kio.90s8asf017ka.jpg') }}"
                                       class="img wp-post-image" alt=""
@@ -1124,13 +1124,13 @@
                       @empty
                       @endforelse
                     </div>
-                    
+
                     {{-- Featured Products --}}
                     @if(count($products)>0)
                       <div class="vc_row wpb_row vc_row-fluid short_row ftc-row-wide" style="margin-bottom:0px;">
                         <div class="wpb_column vc_column_container vc_col-sm-12">
                           <div class="wpb_wrapper">
-                            <div class="vc_separator wpb_content_element vc_separator_align_left vc_sep_width_100 
+                            <div class="vc_separator wpb_content_element vc_separator_align_left vc_sep_width_100
                             vc_sep_double vc_sep_pos_align_left product-later last_text vc_separator-has-text">
                               <span class="vc_sep_holder vc_sep_holder_l">
                                 <span  class="vc_sep_line"></span>
@@ -1204,7 +1204,7 @@
                                                         <a href="{{ $product_info_link }}">
                                                           {{-- cover_image --}}
                                                           <span class="cover_image">
-                                                            <img src="<?php echo $gif; ?>" data-lazy-src="{{ $cov_src }}" 
+                                                            <img src="<?php echo $gif; ?>" data-lazy-src="{{ $cov_src }}"
                                                             class="attachment-shop_catalog wp-post-image ftc-image" alt="" width="370" height="493"/>
                                                             <noscript>
                                                               <img src="{{ $cov_src }}" class="attachment-shop_catalog wp-post-image ftc-image"
@@ -1224,7 +1224,7 @@
                                                         @if($product->sale=='y')
                                                           <div class="conditions-box"><span class="onsale">Sale</span></div>
                                                         @endif
-                                                        
+
                                                         {{-- Buttons Groups --}}
                                                         <div class="group-button-product">
                                                           <a class="compare" href="{{ $product_info_link }}"
@@ -1237,7 +1237,7 @@
                                                           </a>
                                                         </div>
                                                       </div>
-                                                      
+
                                                       <div class="item-description">
                                                         <h3 class="product_title product-name">
                                                           <a href="{{ $product_info_link }}">{{ $product->heading }}</a>
@@ -1271,7 +1271,7 @@
                                                             </ins>
                                                           @endif
                                                         </span>
-                                                        
+
                                                         {{-- Star Rating --}}
                                                         @if($product->star_rating>0)
                                                           <div class="star-rating">
@@ -1312,13 +1312,13 @@
                         </div>
                       </div>
                     @endif
-                    
+
                     {{-- Special Products --}}
                     @if(count($special_products)>0)
                       <div class="vc_row wpb_row vc_row-fluid short_row ftc-row-wide">
                         <div class="wpb_column vc_column_container vc_col-sm-12">
                           <div class="wpb_wrapper">
-                            <div class="vc_separator wpb_content_element vc_separator_align_left vc_sep_width_100 
+                            <div class="vc_separator wpb_content_element vc_separator_align_left vc_sep_width_100
                             vc_sep_double vc_sep_pos_align_left product-later last_text vc_separator-has-text">
                               <span class="vc_sep_holder vc_sep_holder_l">
                                 <span  class="vc_sep_line"></span>
@@ -1377,13 +1377,13 @@
                                           $cov_src=asset('uploads/products').'/'.$get_cover->image;
                                         }
                                         else{
-                                          $cov_src=asset('uploads/products/default/pro-sd1_4kio.90s8asf017ka.jpg');
+                                            $cov_src=asset('uploads/products/default/pro-lg-sd1_4kio.90s8asf017ka.jpg');
                                         }
                                         if(!empty($get_hover) && !empty($get_hover->image) && file_exists('uploads/products/'.$get_hover->image)===true){
                                           $hov_src=asset('uploads/products').'/'.$get_hover->image;
                                         }
                                         else{
-                                          $hov_src=asset('uploads/products/default/pro-sd1_4kio.90s8asf017ka.jpg');
+                                            $hov_src=asset('uploads/products/default/pro-lg-sd1_4kio.90s8asf017ka.jpg');
                                         }
                                                   ?>
                                                   <div class="ftc-products">
@@ -1392,7 +1392,7 @@
                                                         <a href="{{ $product_info_link }}">
                                                           {{-- cover_image --}}
                                                           <span class="cover_image">
-                                                            <img src="<?php echo $gif; ?>" data-lazy-src="{{ $cov_src }}" 
+                                                            <img src="<?php echo $gif; ?>" data-lazy-src="{{ $cov_src }}"
                                                             class="attachment-shop_catalog wp-post-image ftc-image" alt="" width="370" height="493"/>
                                                             <noscript>
                                                               <img src="{{ $cov_src }}" class="attachment-shop_catalog wp-post-image ftc-image"
@@ -1412,7 +1412,7 @@
                                                         @if($product->sale=='y')
                                                           <div class="conditions-box"><span class="onsale">Sale</span></div>
                                                         @endif
-                                                        
+
                                                         {{-- Buttons Groups --}}
                                                         <div class="group-button-product">
                                                           <a class="compare" href="{{ $product_info_link }}"
@@ -1425,7 +1425,7 @@
                                                           </a>
                                                         </div>
                                                       </div>
-                                                      
+
                                                       <div class="item-description">
                                                         <h3 class="product_title product-name">
                                                           <a href="{{ $product_info_link }}">{{ $product->heading }}</a>
@@ -1459,7 +1459,7 @@
                                                             </ins>
                                                           @endif
                                                         </span>
-                                                        
+
                                                         {{-- Star Rating --}}
                                                         @if($product->star_rating>0)
                                                           <div class="star-rating">
@@ -1500,7 +1500,7 @@
                         </div>
                       </div>
                     @endif
-                    
+
                     {{-- Big Sale --}}
                       {{-- <div class="vc_row wpb_row vc_row-fluid deal-home1 ftc-row-wide ftc-parallax-bg"
                       data-vc-full-width="true" data-vc-full-width-init="false"
@@ -1981,5 +1981,5 @@
 
 
 @push('additional_footer_files')
-  
+
 @endpush
